@@ -1,0 +1,11 @@
+
+
+@font-face {
+    font-family: 'NFL-Bengals';
+    src:url('NFL-Bengals.ttf.woff') format('woff'),
+        url('NFL-Bengals.ttf.svg#NFL-Bengals') format('svg'),
+        url('NFL-Bengals.ttf.eot'),
+        url('NFL-Bengals.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}

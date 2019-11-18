@@ -1,0 +1,98 @@
+/*!
+ * Start Bootstrap - Heroic Features (https://startbootstrap.com/template-overviews/heroic-features)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-heroic-features/blob/master/LICENSE)
+ */
+body {
+  padding-top: 0;
+}
+
+.img-brand{
+	width:200px;
+	height:auto;
+}
+
+.img-bg-image{
+	width:auto;
+	height:500px;
+}
+
+.jumbotron-with-background {
+    background-image: url(../images/header.png);
+    background-position:;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-primary-abrb {
+    color: #fff;
+    background-color: #DAC081;
+    border-color: #DAC081
+}
+
+.btn-primary-abrb {
+    color: #fff;
+    background-color: black;
+    border-color: black;
+	padding: 10px 10px 10px 10px;
+}
+
+.bg-abrb{
+	background-color:#DAC081;
+	margin-top: 0px;
+	padding-top:25px;
+	padding-bottom:25px;
+	margin-bottom: 15px;
+	
+}
+
+.img-pr-image{
+	width:auto;
+	height:50px;
+}
+
+.social-links {
+  padding-bottom: 20px;
+}
+
+.social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: white;
+  color: #585858;
+  line-height: 1;
+  padding: 8px 0;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  background: green;
+  color: #fff;
+}
+
+.iframe-google{
+  width:auto;
+  height:auto;
+}
+
+.jumbotron-with-background-qs {
+    background-image: url(../images/quemsomos.png);
+    background-position:;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron-with-background-se {
+    background-image: url(../images/servicos.png);
+    background-position:;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+

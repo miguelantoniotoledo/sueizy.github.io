@@ -149,34 +149,32 @@
 		</div>
 		<div class="container">
 		<div class="col-lg-12">
-			<div class="row pt-2">
-				<div class="col-md-3 mb-4 text-center">
-					<img class="img-pr-image" src="images/abac.png">
+			<div class="row pt-2 text-center d-flex">
+				<div class="col-md-3 mb-4">
+					<img class="img-pr-image img-fluid" src="images/abac.png">
 				</div>
 				<div class="col-md-3 mb-4">
-					<img class="img-pr-image" src="images/bancointer.png">
+					<img class="img-pr-image img-fluid" src="images/credipronto.jpg">
 				</div>
 				<div class="col-md-3 mb-4">
-					<img class="img-pr-image" src="images/ford.png">
+					<img class="img-pr-image img-fluid" src="images/rodobens.png">
 				</div>
 				<div class="col-md-3 mb-4">
-					<img class="img-pr-image" src="images/govesa.png">
+					<img class="img-pr-image img-fluid" src="images/govesa.png">
 				</div>
 				
 			</div>
-			<div class="row pt-2">
+			<div class="row pt-2 text-center">
 				<div class="col-md-3 mb-4">
-					<img class="img-pr-image" src="images/magalu.png">
+					<img class="img-pr-image img-fluid" src="images/magalu.png">
 				</div>
 				<div class="col-md-3 mb-4">
-					<img class="img-pr-image" src="images/maggi.jpg">
+					<img class="img-pr-image img-fluid" src="images/maggi.jpg">
 				</div>
 				<div class="col-md-3 mb-4">
-					<img class="img-pr-image" src="images/yamaha.jpg">
+					<img class="img-pr-image img-fluid" src="images/yamaha.jpg">
 				</div>
-				<div class="col-md-3 mb-4">
-					<img class="img-pr-image" src="images/rodobens.png">
-				</div>
+
 			</div>
 		</div>
 		</div>
@@ -193,7 +191,7 @@
 		
 		<div class="row text-white-ecolutions">
 				<div class="col-lg-12">
-					<form id="contactForm" name="sentMessage" novalidate="novalidate">
+					<form id="contact-form" name="contact-form" action="mail.php" method="POST">
 						<div class="row">
 							<!-- Aqui eh a primeira coluna com os forms do Fale Conosco-->
 							<div class="col-md-3">
@@ -202,20 +200,20 @@
 										<p class="help-block text-danger mb-0"></p>
 								</div>
 								<div class="form-group">
-									<input class="form-control" id="email" type="email" placeholder="DDD + Telefone" required="required" data-validation-required-message="Please enter your email number.">
+									<input class="form-control" id="email" type="email" placeholder="E-mail" required="required" data-validation-required-message="Please enter your email number.">
 										<p class="help-block text-danger mb-0"></p>
 								</div>
 								<div class="form-group">
-									<input class="form-control" id="phone" type="tel" placeholder="E-mail" required="required" data-validation-required-message="Please enter your phone email address.">
+									<input class="form-control" id="phone" type="tel" placeholder="DDD + Telefone" required="required" data-validation-required-message="Please enter your phone email address.">
 										<p class="help-block text-danger mb-0"></p>
 								</div>
 								<div class="form-group">
-									<input class="form-control" id="phone" type="tel" placeholder="Cidade/ Estado" required="required" data-validation-required-message="Please enter your city and state.">
+									<input class="form-control" id="city" type="tel" placeholder="Cidade/ Estado" required="required" data-validation-required-message="Please enter your city and state.">
 										<p class="help-block text-danger mb-0"></p>
 								</div>
 								<div class="form-group  mt-0">
 									<label class = "text-white" for="exampleFormControlSelect1">Assunto</label>
-										<select class="form-control" id="exampleFormControlSelect1">
+										<select class="form-control" id="option">
 											<option>Dúvidas</option>
 											<option>Simulação</option>
 											<option>Opnião</option>
@@ -225,7 +223,7 @@
 								<div class="clearfix"></div>
 									<div class="col-lg-12 text-center mb-3">
 										<div id="success"></div>
-											<button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase mr-1" type="submit">Enviar</button>
+											<button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase mr-1" type="submit" value="Send">Enviar</button>
 									</div>
 							</div>
 							<!-- Aqui eh a segunda coluna com o form da mensagem-->
@@ -266,10 +264,12 @@
 								
 								<div class="social-links mt-4">
 									<ul class="ml text-center mt-1">
-									<a href="https://goo.gl/maps/8mg5UjFYTHw7XEH96" class="map-marker ml-2 mr-2"><i class="fa fa-map-marker"target="_blank"></i></a>
-									<a href="https://www.facebook.com/ecolutions.energia" class="facebook ml-2 mr-2"><i class="fa fa-facebook"target="_blank"></i></a>
-									<a href="https://www.instagram.com/ecolutions.energia/" class="instagram ml-2 mr-2"><i class="fa fa-instagram" target="_blank"></i></a>
-									</ul>	
+									<a href="https://g.page/abrb-investimentos?share" class="map-marker ml-2 mr-2"><i class="fa fa-map-marker"target="_blank"></i></a>
+									<a href="https://www.facebook.com/abrbinvestimentos" class="facebook ml-2 mr-2"><i class="fa fa-facebook"target="_blank"></i></a>
+									<a href="https://www.instagram.com/abrbinvestimentos" class="instagram ml-2 mr-2"><i class="fa fa-instagram" target="_blank"></i></a>
+									<a href="https://api.whatsapp.com/send?phone=5562991513525&text=Quero%20fazer%20neg%C3%B3cio%20com%20a%20ABRB%20Investimentos!" class="instagram ml-2 mr-2"><i class="fa fa-whatsapp" target="_blank"></i></a>
+									</ul>
+									</ul>									
 								</div>
 								
 								<div class="row justify-content-center">
@@ -286,6 +286,9 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/mail.php"></script>
 
 </body>
 </html>

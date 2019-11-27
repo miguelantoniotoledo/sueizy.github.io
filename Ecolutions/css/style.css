@@ -8,8 +8,8 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background: #fff;
-  color: #666666;
+  background: white;
+  color: white;
   font-family: "Open Sans", sans-serif;
   min-height:100%;
 }
@@ -163,7 +163,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
+  background: white;
   position: absolute;
   bottom: 0;
   top: 0;

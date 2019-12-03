@@ -155,11 +155,27 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
-@media (min-width: 1024px) {
+@media only screen and (max-width: 700px){ 
+  h1,.h1,
+  h2,.h2,
+  h3,.h3,
+  h4,.h4,
+  h5,.h5,
+  h6,.h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size:90%;  
+}
+}
+
+@media (min-width: 700px) {
   #hero {
     background-attachment: fixed;
+	margin-bottom: 20%;
+	padding-bottom:20%
   }
 }
+
 
 #hero:before {
   content: "";
@@ -184,6 +200,8 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
+
+
 #hero h1 {
   margin: 30px 0 10px 0;
   font-size: 48px;
@@ -193,9 +211,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 700px) {
   #hero h1 {
-    font-size: 28px;
+    font-size: 60%;
     line-height: 36px;
   }
 }
@@ -206,9 +224,9 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 700px) {
   #hero h2 {
-    font-size: 18px;
+    font-size: 60%;
     line-height: 24px;
     margin-bottom: 30px;
   }
@@ -291,6 +309,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .sf-arrows ul .sf-with-ul:after {
   content: "\f105";
+}
+
+@media (max-width: 700px) {
+  .sf-arrows {
+    font-size: 60%
+  }
 }
 
 /* Nav Meu Container */
@@ -1035,6 +1059,12 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
 */	
 
+@media (max-width: 700px) {
+  .panel h1, .h1, h4, .h4{
+	  font-size:60%
+  }
+}
+
 #parceiros {
   padding: 80px 0 0px 0;
   font-family: "Poppins", sans-serif;
@@ -1047,6 +1077,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 #clientes {
   padding: 70px 0 0px 0;
   font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 700px) {
+#clientes {
+  padding: 0 0 0 0;
+  margin-top:0;
+}
 }
 
 #quemsomos {
@@ -1087,4 +1124,3 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #2dc997;
   border: 2px solid #2dc997;
 }
-

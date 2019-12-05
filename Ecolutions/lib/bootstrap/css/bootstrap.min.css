@@ -529,7 +529,7 @@ mark {
 	z-index:1
 }
 
-@media (min-width:768px){
+@media (max-width:768px){
 .img-fluid-perfil-ecolutions {
     height:300px;
 	z-index:1;

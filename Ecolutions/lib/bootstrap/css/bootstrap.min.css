@@ -529,6 +529,13 @@ mark {
 	z-index:1
 }
 
+@media (min-width:768px){
+.img-fluid-perfil-ecolutions {
+    height:300px;
+	z-index:1
+}
+}
+
 .img-thumbnail {
     padding: .25rem;
     background-color: #fff;

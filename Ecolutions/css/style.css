@@ -1117,6 +1117,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #clientes img{
   height: 70px;
+  display: inline-block;
 }
 
 #hero .btn-get-started:hover {
@@ -1137,4 +1138,29 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .btn-get-started:hover {
   background: #2dc997;
   border: 2px solid #2dc997;
+}
+
+.clientes-slide {
+  padding: 0 15px;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-size: 30px;
+  color: #144672;
+}
+
+.slick-prev {
+  left: 0;
+}
+
+.slick-next {
+  right: -3px;
+}
+
+.slick-dots li button:before {
+  font-size: 13px;
+}
+
+.slick-prev, .slick-next {
+  z-index: 999;
 }
